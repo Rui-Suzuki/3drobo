@@ -28,7 +28,7 @@ public class EnemyInstantiate : MonoBehaviour {
         instantiateInterval = intervalInit;     // 生成間隔設定
         timer = timeInit;                       // 生成間隔計算用タイマー初期化
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
         timer -= Time.deltaTime;     // 経過時間を減算

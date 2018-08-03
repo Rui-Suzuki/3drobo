@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour {
                 }
                 break;
             case battleState.battlePlay:    // プレー中
-                if (clearScore <= score) // クリアスコアをこえた
+                if (clearScore <= score)    // クリアスコアをこえた
                 {
                     state = battleState.battleEnd;
                     messageWin.enabled = true;
