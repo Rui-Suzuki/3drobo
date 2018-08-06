@@ -1,2 +1,6 @@
 
 Library/
+*.csproj
+3drobo.sln
+DesignTimeResolveAssemblyReferencesInput.cache
+.vs/
