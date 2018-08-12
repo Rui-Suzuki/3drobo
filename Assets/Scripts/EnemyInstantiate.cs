@@ -4,9 +4,8 @@
 public class EnemyInstantiate : MonoBehaviour {
 
     // 定数定義
-    private const int enemyNumMax       = 20;   // 敵の数
-    private const int timeInit          = 3;    // タイマーの初期値
-    private const float intervalInit    = 4.0f; // 生成間隔の初期値
+    private const int   timeInit        = 3;     // タイマーの初期値
+    private const float intervalInit    = 10.0f; // 生成間隔の初期値
     private const float timerAddVal     = 0.05f; // タイマーの短縮度合い
 
     // 公開変数

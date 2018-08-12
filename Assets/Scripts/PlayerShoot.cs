@@ -26,7 +26,7 @@ public class PlayerShoot : MonoBehaviour {
         shotInterval += Time.deltaTime;              // 経過時間を加算
         if (shotIntervalMax < shotInterval)          // 発射間隔をこえていれば発射処理
         {
-            if (Input.GetButton("Fire1"))            // 発射する
+            if (Input.GetButton("Fire2"))            // 発射する
             {
                 Instantiate(shot,                    // 複製するオブジェクト 弾
                     muzzle.transform.position,       // 複製する位置 銃口の位置に合わせる
