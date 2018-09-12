@@ -6,8 +6,8 @@ public class Enemy : MonoBehaviour {
     // 定数定義
     private const float reactDistance    = 30;      // 敵が反応し始める距離
     private const float shotIntervalMax  = 1.0F;    // 弾発射間隔の閾値
-    private const int apMax              = 1000;    // APの最大値
-    private const int enemyMoveTime      = 15;      // 敵が動き出す時間
+    private const int apMax              = 100;     // APの最大値
+    private const int enemyMoveTime      = 3;       // 敵が動き出す時間
     private const int rotateSpeedHigh    = 10;      // 高速旋回
     private const int rotateSpeedLow     = 5;       // 低速旋回
     private const int moveEnemySpeed     = 20;      // 敵の移動速度
@@ -80,9 +80,9 @@ public class Enemy : MonoBehaviour {
     {
         timer += Time.deltaTime;
 
-        if (enemyMoveTime < timer)
+        if (enemyMoveTime < timer)  // 一定時間経過後、敵が動き出す
         {
-            enemyMoveFlg = true;
+                                                                                                           // enemyMoveFlg = true;
         }
     }
 
