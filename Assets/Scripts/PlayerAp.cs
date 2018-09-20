@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerAp : MonoBehaviour {
 
     // 定数定義
-    private const int armorPointMax = 5000; // APの最大値
+    private const int armorPointMax = 1000; // APの最大値
     private const int damage = 100;         // ダメージ(とりあえず固定)
     private const float armorPointPerYellow = 0.4F; // APを黄色表示にする割合
     private const float armorPointPerRed = 0.2F;    // APを赤色表示にする割合
